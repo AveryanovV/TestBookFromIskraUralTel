@@ -14,7 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 @EqualsAndHashCode(of = {"id", "nameBook", "year"})
 @Entity
-@Table(name = "book")
+@Table(name = " book")
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
